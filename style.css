@@ -1,0 +1,96 @@
+#video_area{
+	/*background:#F00;
+	width:50%;*/
+	display:table-cell;
+    position: absolute;
+    z-index: 1;
+}
+
+#question_area {
+    background: #FFF;
+    position: absolute;
+    z-index: 2;
+}
+
+#question_video_area {
+    display: table-cell;
+    background: #F00;
+    width: 50%;
+}
+
+#videoclass{
+	width:320px;
+	height:240px;
+}
+
+#whiteboard_area{
+	background:#0F0;
+	width:50%;
+	display:table-cell;
+}
+
+#chat_area{
+	background:#00F;
+}
+
+#class_area{
+	width:100%;
+}
+
+#imgpos{
+	position:absolute;
+	left:50%;
+	top:30%;
+	margin-left:-256px;
+	margin-top:-34px;
+}
+
+#username{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-102px;
+	margin-top:-18px;
+}
+
+#password{
+	position:absolute;
+	left:50%;
+	top:58%;
+	margin-left:-102px;
+	margin-top:-21px;
+	
+}
+
+#submit_login{
+	position:absolute;
+	left:65%;
+	top:66%;
+	margin-left:-150px;
+	margin-top:-24px;
+	display:right;
+	
+}
+
+.chat_wrapper {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background: #CCCCCC;
+	border: 1px solid #999999;
+	padding: 10px;
+	font: 12px 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+.chat_wrapper .message_box {
+	background: #FFFFFF;
+	height: 150px;
+	overflow: auto;
+	padding: 10px;
+	border: 1px solid #999999;
+}
+.chat_wrapper .panel input{
+	padding: 2px 2px 2px 5px;
+}
+.system_msg{color: #F00;font-style: italic;}
+.user_name{font-weight:bold;}
+.user_message{color: #88B6E0;}
